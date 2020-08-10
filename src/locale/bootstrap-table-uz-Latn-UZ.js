@@ -18,16 +18,16 @@ $.fn.bootstrapTable.locales['uz-Latn-UZ'] = {
     return `Ko'rsatypati ${pageFrom} dan ${pageTo} gacha ${totalRows} qatorlarni`
   },
   formatSRPaginationPreText () {
-    return 'previous page'
+    return 'oldingi sahifa'
   },
   formatSRPaginationPageText (page) {
-    return `to page ${page}`
+    return `${page}-sahifaga`
   },
   formatSRPaginationNextText () {
-    return 'next page'
+    return 'keyingi sahifa'
   },
   formatDetailPagination (totalRows) {
-    return `Showing ${totalRows} rows`
+    return `${totalRows} ta qator ko\'rsatilayapti`
   },
   formatClearSearch () {
     return 'Filtrlarni tozalash'
@@ -42,10 +42,10 @@ $.fn.bootstrapTable.locales['uz-Latn-UZ'] = {
     return 'Sahifalashni yashirish/ko\'rsatish'
   },
   formatPaginationSwitchDown () {
-    return 'Show pagination'
+    return 'Sahifalashni ko\'rsatish'
   },
   formatPaginationSwitchUp () {
-    return 'Hide pagination'
+    return 'Sahifalashni yashirish'
   },
   formatRefresh () {
     return 'Yangilash'
@@ -54,46 +54,46 @@ $.fn.bootstrapTable.locales['uz-Latn-UZ'] = {
     return 'Ko\'rinish'
   },
   formatToggleOn () {
-    return 'Show card view'
+    return 'Kartochkali ko\'rinishni yoqish'
   },
   formatToggleOff () {
-    return 'Hide card view'
+    return 'Kartochkali ko\'rinishni yashirish'
   },
   formatColumns () {
     return 'Ustunlar'
   },
   formatColumnsToggleAll () {
-    return 'Toggle all'
+    return 'Hammasini ko\'rsatish'
   },
   formatFullscreen () {
-    return 'Fullscreen'
+    return 'Butun ekranga'
   },
   formatAllRows () {
     return 'Hammasi'
   },
   formatAutoRefresh () {
-    return 'Auto Refresh'
+    return 'Avtomatik yangilash'
   },
   formatExport () {
     return 'Eksport'
   },
   formatJumpTo () {
-    return 'GO'
+    return 'BORISH'
   },
   formatAdvancedSearch () {
-    return 'Advanced search'
+    return 'Maxsush qidiruv'
   },
   formatAdvancedCloseButton () {
-    return 'Close'
+    return 'Yopish'
   },
   formatFilterControlSwitch () {
-    return 'Hide/Show controls'
+    return 'Tugmalarni yashirish/ko\'rsatish'
   },
   formatFilterControlSwitchHide () {
-    return 'Hide controls'
+    return 'Tugmalarni yashirish'
   },
   formatFilterControlSwitchShow () {
-    return 'Show controls'
+    return 'Tugmalarni ko\'rsatish'
   }
 }
 
